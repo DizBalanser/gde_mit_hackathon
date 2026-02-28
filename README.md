@@ -49,12 +49,38 @@ The best user interface for a sick patient is often **no interface at all**.
 
 ---
 
+## Screenshots
+
+### Diary + Entry Detail
+
+![Diary home](./screenshots/01-diary-home.png)
+![Symptom entry detail](./screenshots/02-entry-symptom.png)
+![Food entry detail](./screenshots/04-food-entry.png)
+
+### Clinical Sources + SOAP
+
+![openFDA source page](./screenshots/03-openfda-source.png)
+![Generated SOAP note](./screenshots/09-soap-note.png)
+
+### Analytics
+
+![Analytics overview](./screenshots/05-analytics-overview.png)
+![AI insights](./screenshots/06-ai-insights.png)
+
+### Profile
+
+![Profile screen](./screenshots/07-profile-top.png)
+![Profile stats and actions](./screenshots/08-profile-stats-actions.png)
+
+---
+
 ## Repository Structure
 
 ```text
 .
 ├── ios/   # Legacy iOS prototype (pre-pivot)
-└── web/   # Voice triage backend + dashboard (active demo implementation)
+├── screenshots/ # Demo images used in this README
+└── web/         # Voice triage backend + dashboard (active demo implementation)
 ```
 
 ## Quick Start (Web)
